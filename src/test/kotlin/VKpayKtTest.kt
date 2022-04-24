@@ -27,7 +27,7 @@ class VKpayKtTest {
             sumTranslation,
             sumDeal,
         )
-        assertEquals(-17_100_000, result)
+        assertEquals(-17_000_000, result)
     }
 
     @Test
@@ -89,7 +89,7 @@ class VKpayKtTest {
             sumTranslation,
             sumDeal,
         )
-        assertEquals(-60, result)
+        assertEquals(-40, result)
     }
 
     @Test
